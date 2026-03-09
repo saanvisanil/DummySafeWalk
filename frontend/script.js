@@ -1,6 +1,6 @@
 function checkSafety() {
 
-fetch("http://127.0.0.1:5000/safety")
+fetch("https://dummy-safewalk-backend.onrender.com/safety")
 .then(response => response.json())
 .then(data => {
 document.getElementById("result").innerText =
